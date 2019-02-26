@@ -20,6 +20,4 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep class com.ztc1997.miuiaodnotificationicon.Xposed{
-*;
-}
+-keep class com.ztc1997.miuiaodnotificationicon.Xposed
