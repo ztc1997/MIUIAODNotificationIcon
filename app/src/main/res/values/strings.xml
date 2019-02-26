@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MIUI AOD Notification Icon</string>
+    <string name="xposeddescription">Makes all apps can display notification icons on AOD</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MIUI 息屏显示通知图标</string>
+    <string name="xposeddescription">使所有应用程序都可以在息屏显示上显示通知图标</string>
+</resources>

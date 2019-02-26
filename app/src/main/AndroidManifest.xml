@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.ztc1997.miuiaodnotificationicon">
+
+    <application
+            android:allowBackup="true"
+            android:label="@string/app_name"
+            android:icon="@mipmap/ic_launcher"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            tools:ignore="GoogleAppIndexingWarning">
+        <meta-data
+                android:name="xposedmodule"
+                android:value="true"/>
+        <meta-data
+                android:name="xposeddescription"
+                android:value="@string/xposeddescription"/>
+        <meta-data
+                android:name="xposedminversion"
+                android:value="82"/>
+
+    </application>
+</manifest>
