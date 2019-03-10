@@ -91,11 +91,9 @@ class Xposed : IXposedHookLoadPackage {
         // Resize icon
         val bitmap = icon.toBitmap()
         val bmpResized = Bitmap.createScaledBitmap(bitmap, ICON_SIZE, ICON_SIZE, true)
-        bitmap.recycle()
 
         // Grayscale icon
         val bmpGrayscaled = bmpResized.toGrayscale()
-        bmpResized.recycle()
 
         val retIcon = BitmapDrawable(aodView.context.resources, bmpGrayscaled)
 
