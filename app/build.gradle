@@ -10,8 +10,8 @@ android {
         applicationId "com.ztc1997.miuiaodnotificationicon"
         minSdkVersion 28
         targetSdkVersion 28
-        versionCode 3
-        versionName "0.1.2"
+        versionCode 4
+        versionName "0.2.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
