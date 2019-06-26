@@ -7,7 +7,7 @@ fun Bitmap.toGrayscale(): Bitmap {
     val width: Int = this.width
     val height: Int = this.height
 
-    val bmpGrayscale = Bitmap.createBitmap(width, height, Bitmap.Config.RGB_565)
+    val bmpGrayscale = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_4444)
     val c = Canvas(bmpGrayscale)
     val paint = Paint()
     val cm = ColorMatrix()

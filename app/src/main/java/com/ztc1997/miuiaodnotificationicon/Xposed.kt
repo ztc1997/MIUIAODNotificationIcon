@@ -21,10 +21,10 @@ private const val ICON_SIZE = 126
 @Suppress("UNCHECKED_CAST")
 class Xposed : IXposedHookLoadPackage {
     override fun handleLoadPackage(lpparam: XC_LoadPackage.LoadPackageParam) {
-        if (lpparam.packageName != "com.android.systemui") return
+        if (lpparam.packageName != "com.miui.aod") return
 
         val AODViewClass = XposedHelpers.findClass(
-            "com.android.keyguard.AODView",
+            "com.miui.aod.AODView",
             lpparam.classLoader
         )
 
@@ -48,7 +48,7 @@ class Xposed : IXposedHookLoadPackage {
         }
 
         val BadgetImageViewClass = XposedHelpers.findClass(
-            "com.android.keyguard.BadgetImageView",
+            "com.miui.aod.BadgetImageView",
             lpparam.classLoader
         )
 
